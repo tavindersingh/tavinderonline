@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+/*div {*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+/*	width: 100%;*/
+	/*background: rgb(100, 100, 100);*/
+/*	text-align: center;*/
+/*}*/
+
+.jumbotron-background {
+    background: #b282d6;
+    text-align: center;
+}
+
+p#about {
+	margin-top: 0;
+	animation-duration: 1.5s;
+    animation-name: popIn;
+    font-size: 25px;
+    /*color: black;*/
+    position: relative;
+    /*left: -250px;*/
+}
+
+p#work {
+    margin-top: 0;
+	animation-duration: 1.5s;
+    animation-name: popIn;
+    font-size: 25px;
+    /*color: black;*/
+}
+
+
+
+div>p>b {
+    position: relative;
+    left: -250px;
+}
+
+div>p>span {
+    position: relative;
+    left: 250px;
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+    }
+
+    /*60% {*/
+    /*    opacity: 0.6;*/
+    /*}*/
+
+    100% {
+        opacity: 1;
+    }
+}
